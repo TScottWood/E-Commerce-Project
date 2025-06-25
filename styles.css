@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,900&display=swap');
-*{
-    font-family: ‘Roboto’, sans-serif;
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: ‘Roboto’, sans-serif;
 }
 
 nav {
@@ -11,38 +11,13 @@ nav {
     display: flex;
 }
 
-.nav__container {   
-    width:100%;
+.nav__container {
+    width: 100%;
     max-width: 1200px;
     display: flex;
-    justify-content: space-between;
-    padding: 0 24px;
-    align-items: center;
-    margin: 0 auto;
-}
-
-.logo {
-    width: 160px;
+    justify-content: space-around;
 }
 
 ul {
     display: flex;
-}
-
-li {
-    list-style-type: none;
-}
-
-.nav__link {
-    margin-left: 16px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #7342d6;
-    font-weight: bold;
-    padding: 8px;
-}
-
-.nav__link--primary {
-    border: 2px solid #7342d6;
-    border-radious: 4px;
 }
