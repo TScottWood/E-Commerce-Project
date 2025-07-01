@@ -130,7 +130,7 @@ img {
 }
 
 .container {
-    padding: 56 0;
+    padding: 56px 0;
 }
 
 .row {
@@ -151,9 +151,31 @@ HIGHLIGHTS
 
 .highlight {
     padding: 0 24px;
-    width: calc (100% / 3);
+    width: calc(100% / 3);
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
+}
+
+.highlight__para {
+    text-align: center;
+}
+
+.highlight-img {
+    border: 2px solid #7342d65d;
+    color: 7342d6;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.highlight__subtitle {
+    font-size: 20px;
+    margin-bottom: 16px;
 }
