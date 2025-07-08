@@ -282,7 +282,11 @@ FEATURES
     color: #bfbfbf;
 }
 
+/*
 
+Explore
+
+*/
 
 #explore {
     padding-top: 8vw;
@@ -296,23 +300,46 @@ FEATURES
     align-items: center;
 }
 
+
 /*
 
 FOOTER
 
 */
 
-footer {
-        background-color: rgba242424;
-    }
+#footer {
+    padding-top: 8vw;
+    padding-bottom: 8vw
+}
 
-    .footer__logo--img {
-        width: 160px;
-        filter: grayscale(1) invert (1);
-    }
+.logo__img__wrapper {
 
-    .footer__link,
-    .foter__copyright {
-        color: rgba#fff;
-        
-    }
+}
+
+.footer__row {
+    background-color:black;
+}
+
+.logo2 {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer__link {
+    color: white;
+}
+
+.footer__copyright {
+    color:white;
+    padding: 54px;
+    display: flex;
+    justify-content: center;
+}
